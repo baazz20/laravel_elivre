@@ -95,24 +95,25 @@
                             $prix_louer1= 3000;
                             $prix_louer2= 5000;
                         @endphp
-                        <div class="form-check">
+                        {{-- <div class="form-check">
 
                             <input type="radio" name="prix" id="acheter" checked value="{{$produit->prix_vente}}" onchange="change('achat')">
                             <label class="form-check-label" for="acheter">
                               Acheter
                             </label>
-                          </div>
-                          <div class="form-check">
+                          </div> --}}
+                          <br>
+                          {{-- <div class="form-check">
                             <input type="radio" name="prix" id="louer" onchange="change('louer')">
                             <label class="form-check-label" for="louer">
                                 Emprunter
                             </label>
-                          </div>
-                          <div class="form-check">
+                          </div> --}}
+                          {{-- <div class="form-check">
                               <br>
                               <span style="color:grey">avec l'abonnement mensuel vous avez la possibilité <br>d'emprunter un ou plusieurs livres par mois</span>
 
-                          </div>
+                          </div> --}}
 
                           <!--<div class="form-check">-->
                           <!--  <input type="radio" name="prix" id="louer1" value="{{$prix_louer1}}" onchange="change('louer1')">-->

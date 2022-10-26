@@ -10,7 +10,7 @@
             <div>
                 {{-- <img src="{{asset('images/logo.png')}}" class="float-none float-lg-right img-fluid"> <br> --}}
                 <p class="font-weight-normal" style="font-size:20px">
-                    Dans l'optique d'emmener le maximum de femmes à la lecture la librairie Marthe et Marie vous donne la possibilité de souscrire à un abonnement mensuel de <strong>5000fr </strong>qui vous donne le droit de lire autant de livres que possible.
+                    Dans l'optique d'emmener le maximum de femmes à la lecture la librairie elivre vous donne la possibilité de souscrire à un abonnement mensuel de <strong>5000fr </strong>qui vous donne le droit de lire autant de livres que possible.
 Le délais maximum de dépôt d'un livre est de <strong>1 mois.</strong>
 En cas de dommage ou perte l'abonné a pour obligation de remplacer le livre par un neuf dans un délai d'<strong>une semaine</strong>.
 

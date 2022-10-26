@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title','Service client | martheetmarie CI')
+@section('title','Service client | elivre CI')
 @section('content')
     <div class="container mb-5">
         <div class="border border-top-0 border-left-0 border-right-0 border-dark mt-5">
@@ -18,4 +18,4 @@
             </div>
         </div>
     </div>
-@endsection 
+@endsection

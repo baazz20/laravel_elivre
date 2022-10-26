@@ -29,7 +29,7 @@ class ProduitsCrudController extends CrudController
 
         CRUD::setModel(\App\Models\Produits::class);
         CRUD::setRoute(config('backpack.base.route_prefix') . '/produits');
-        CRUD::setEntityNameStrings('un produit', 'Produits');
+        CRUD::setEntityNameStrings('un livre', 'Livres');
         /* si il a le role partenaire */
         $user = backpack_user()->hasRole('partenaire');
         if ($user) {
@@ -47,12 +47,11 @@ class ProduitsCrudController extends CrudController
     protected function setupListOperation()
     {
 
-
         $this->crud->addColumn(
             [
                 'name' => 'nom',
                 'type' => 'text',
-                'label' => 'nom',
+                'label' => 'nom du livre',
             ]
         );
         $this->crud->addColumn(
@@ -112,12 +111,28 @@ class ProduitsCrudController extends CrudController
     protected function setupCreateOperation()
     {
         CRUD::setValidation(ProduitsRequest::class);
+        $this->crud->addField(
+            [
+                'name' => 'code_categorie',
+                'type' => 'select2',
+                'label' => "Categorie du produit",
+                'entity' => 'categories',
+                'attribute' => 'nom',
+                'model' => "App\Models\Categories", // foreign key model
+                //'pivot' => true,
+                'wrapperAttributes' => [
+                    'class' => 'form-group col-md-6'
+                ]
+            ]
+        );
+
+
 
         $this->crud->addField(
             [
                 'name' => 'nom',
                 'type' => 'text',
-                'label' => 'nom',
+                'label' => 'nom du livre',
                 'wrapperAttributes' => [
                     'class' => 'form-group col-md-6'
                 ],
@@ -127,44 +142,12 @@ class ProduitsCrudController extends CrudController
             [
                 'name' => 'auteur',
                 'type' => 'text',
-                'label' => 'auteur',
+                'label' => 'auteur du livre',
                 'wrapperAttributes' => [
                     'class' => 'form-group col-md-6'
                 ],
             ]
         );
-        $this->crud->addField(
-            [
-                'name' => 'code_categorie',
-                'type' => 'select2',
-                'label' => "Categorie",
-                'entity' => 'categories',
-                'attribute' => 'nom',
-                'model' => "App\Models\Categories", // foreign key model
-                //'pivot' => true,
-                'wrapperAttributes' => [
-                    'class' => 'form-group col-md-6'
-                ],
-                'placeholder'          => 'Select a task',
-            ]
-        );
-
-        // $this->setRequiredField('nom');
-
-
-
-        $this->crud->addField(
-            [
-                'name' => 'type',
-                'type' => 'select_from_array',
-                'label' => 'type',
-                'options' =>['distant'=>'distant', 'presentiel'=>'presentiel'],
-                'wrapperAttributes' => [
-                    'class' => 'form-group col-md-6'
-                ],
-            ]
-        );
-
         $this->crud->addField(
             [
                 'name' => 'owner_id',
@@ -172,6 +155,8 @@ class ProduitsCrudController extends CrudController
                 'value' => backpack_user()->id
             ]
         );
+
+
 
 
         $this->crud->addField(
@@ -187,25 +172,11 @@ class ProduitsCrudController extends CrudController
         );
 
         $this->crud->addField(
-            [   // Browse
-                'label' => "fichier",
-                'name' => "fichier",
-                'type' => 'upload',
-
-                'upload' => true,
-                'wrapperAttributes' => [
-                    'class' => 'form-group col-md-6'
-                ],
-
-            ], 'both');
-        // );
-
-        $this->crud->addField(
             [
                 'name' => 'prix_vente',
                 'type' => 'text',
                 'label' => 'prix de vente',
-                'default' => '0',
+                'default' => '2000',
                 'wrapperAttributes' => [
                     'class' => 'form-group col-md-6 '
                 ],
@@ -348,7 +319,7 @@ class ProduitsCrudController extends CrudController
                 'label' => 'prix de vente',
             ]
         );
-
+        
         $this->crud->addColumn(
             [
                 'name' => 'quantite',
@@ -356,7 +327,7 @@ class ProduitsCrudController extends CrudController
                 'label' => 'quantité'
             ]
         );
-
+        
         $this->crud->addColumn(
             [
                 'name' => 'enabled',

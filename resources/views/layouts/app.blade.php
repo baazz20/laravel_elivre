@@ -6,14 +6,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="unknow-teams" />
-  <meta name="description" content="Marthe & Marie | vente et Location de livres" />
+  <meta name="description" content="elivre | vente et Location de livres" />
   <meta name="keywords" content="telephonie,tablettes,accessoires,montres,tv,audio," />
   <meta name="robots" content="INDEX,FOLLOW" />
 
   <!-- CSRF Token -->
   <meta name="csrf-token" content="{{ csrf_token() }}">
 
-  <title>@yield('title','Marthe & Marie| vente et Location de livres.')</title>
+  <title>@yield('title','elivre| vente et Location de livres.')</title>
 
   {{-- <link rel="apple-touch-icon" sizes="180x180" href="{{asset('images/favicon/apple-touch-icon.png')}}">
   <link rel="icon" type="image/png" sizes="32x32" href="{{asset('images/favicon/favicon-32x32.png')}}">
@@ -54,72 +54,8 @@
 
   </div>
   <hr>
-  @php
-  $message = \DB::table('messages')->get()->where('activer',1)->first();
-  @endphp
-  @if($message)
-  <div class="marquee-rtl">
-    <div>
-      <a href="{{$message->lien}}" _target='blank'>
-        {!!$message->message!!} </a>.</div>
-      </div>
-      
-@endif
-  <style>
-    .marquee-rtl {
-      position: fixed;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      max-height: 40px;
-      overflow: hidden;
-      /* important */
 
-      /* margin: 2em auto; */
-      border: 2px solid #F0F0FF;
-      box-shadow: 0 .25em .5em #CCC, inset 0 0 1em .25em #CCC;
-      background-color: #eee;
-      z-index: 1555;
-
-    }
-
-    .marquee-rtl>div {
-      font-size: 1em;
-    }
-
-    .marquee-rtl>div {
-      display: inline-block;
-      /* important */
-      white-space: nowrap;
-      /* important */
-      animation: defilement-rtl 30s infinite linear;
-      /* défilement */
-      cursor: pointer;
-      padding: 5px 1em 5px 50%;
-    }
-
-    .marquee-rtl:hover>div {
-      animation-play-state: paused;
-      /* met en pause le défilement */
-    }
-
-    .marquee-rtl>div:first-letter {
-      font-weight: 700;
-      color: #EE008C;
-    }
-
-    @keyframes defilement-rtl {
-      0% {
-        -webkit-transform: translate(0);
-        transform: translate(0);
-      }
-
-      100% {
-        -webkit-transform: translate(-100%);
-        transform: translate(-100%);
-      }
-    }
-  </style>
+  
   @include('layouts.partial.footer')
 
 

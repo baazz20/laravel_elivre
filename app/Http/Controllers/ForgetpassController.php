@@ -47,12 +47,12 @@ class ForgetpassController extends Controller
             $data = [
                 'subject' => 'demande de restauration du mot de passe',
                 'from' => 'virtus225one@gmail.com',
-                'from_name' => 'martheetmarie.com',
+                'from_name' => 'elivre.com',
                 'template' => 'mail.blank',
                 'info' => [
-                    'contenu' => 'vous venez de demander une restauration du mot de passe de votre compte martheetmarie.com,
+                    'contenu' => 'vous venez de demander une restauration du mot de passe de votre compte elivre.com,
                      veuillez cliquer sur le lien ci-dessous pour confirmer .',
-                    'lien' => 'http://www.martheetmarie.com/confirm-reset/' . $token,
+                    'lien' => 'http://www.elivre.com/confirm-reset/' . $token,
                     'nom_lien' => 'réinitialiser votre mot de passe'
                 ]
             ];
@@ -86,12 +86,12 @@ class ForgetpassController extends Controller
                 $data = [
                     'subject' => 'nouveau mot de passe',
                     'from' => 'virtus225one@gmail.com',
-                    'from_name' => 'martheetmarie.com',
+                    'from_name' => 'elivre.com',
                     'template' => 'mail.blank',
                     'info' => [
-                        'contenu' => 'vous venez de demander une restauration du mot de passe de votre compte martheetmarie.com,
+                        'contenu' => 'vous venez de demander une restauration du mot de passe de votre compte elivre.com,
                      votre nouveau mot de passe est :  .',
-                        'lien' => 'http://www.martheetmarie.com',
+                        'lien' => 'http://www.elivre.com',
                         'nom_lien' => "123457"
                     ]
                 ];

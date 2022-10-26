@@ -37,21 +37,21 @@
                                 <input class="mb-0 form-control" name="password" type="password" id="login-password" placeholder="Entrez votre mot de passe">
                             </div>
                             <div class="col-12 mb--10">
-                                <a href="{{url('/motdepasse-perdu')}}" style="color: #EE008C"><i>mot de passe
+                                <a href="{{url('/motdepasse-perdu')}}" style="color: #6852ED"><i>mot de passe
                                     oublié ?</i></a>
                             </div>
                             <div class="col-md-12 mt-3">
                                 <button type="submit"  class="col-12 btn btn-outlined">se connecter</button>
                             </div>
-                           <div class=" col-12  text-center mt-2">
+                           {{-- <div class=" col-12  text-center mt-2">
                                 <span class="text-uppercase text-center hr">ou</span>
-                                <style> .hr { align-items: center; display: flex; text-align: center;}.hr::before,.hr::after { border-top: .0625em solid #00A19B; content: "";flex: 1;margin: 0 .5em;}</style>
+                                <style> .hr { align-items: center; display: flex; text-align: center;}.hr::before,.hr::after { border-top: .0625em solid #FFC107; content: "";flex: 1;margin: 0 .5em;}</style>
                            </div>
                             <div class="col-md-12 mt-3">
                                 <a href="{{ url('auth/google') }}" class="col-12 btn btn-danger"><i class="fab fa-google text-white float-left"></i> &nbsp;&nbsp;&nbsp; SE CONNECTER AVEC GOOGLE</a>
-                            </div>
+                            </div> --}}
                             <div class="col-12 mt-3">
-                                <p>vous n'avez pas encore de compte ? <a href="{{route('register.index')}}" style="color:#EE008C">inscrivez vous</a></p>
+                                <p>vous n'avez pas encore de compte ? <a href="{{route('register.index')}}" style="color:#6852ED">inscrivez vous</a></p>
                             </div>
                         </div>
                     </div>

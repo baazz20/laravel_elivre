@@ -42,8 +42,28 @@ class ClientsCrudController extends CrudController
      */
     protected function setupListOperation()
     {
-        CRUD::setFromDb(); // columns
-
+        // CRUD::setFromDb(); // columns
+        $this->crud->addColumn([
+            'name' => 'nom',
+            'type' => 'text',
+            'label' => "Nom"
+        ]);
+        $this->crud->addColumn([
+            'name' => 'prenom',
+            'type' => 'text',
+            'label' => "Prenom"
+        ]);
+        $this->crud->addColumn([
+            'name' => 'email',
+            'type' => 'text',
+            'label' => "Email"
+            
+        ]);
+        $this->crud->addColumn([
+            'name' => 'telephone',
+            'type' => 'text',
+            'label' => "Contact"
+        ]);
         /**
          * Columns can be defined using the fluent syntax or array syntax:
          * - CRUD::column('price')->type('number');
@@ -61,8 +81,46 @@ class ClientsCrudController extends CrudController
     {
         CRUD::setValidation(ClientsRequest::class);
 
-        CRUD::setFromDb(); // fields
-
+        // CRUD::setFromDb(); // fields
+        $this->crud->addField([
+            'name' => 'nom',
+            'type' => 'text',
+            'label' => "Nom",
+            'wrapperAttributes' => [
+                'class' => 'form-group col-md-6'
+            ]
+        ]);
+        $this->crud->addField([
+            'name' => 'prenom',
+            'type' => 'text',
+            'label' => "Prenom",
+            'wrapperAttributes' => [
+                'class' => 'form-group col-md-6'
+            ]
+        ]);
+        $this->crud->addField([
+            'name' => 'email',
+            'type' => 'text',
+            'label' => "Email",
+            'wrapperAttributes' => [
+                'class' => 'form-group col-md-6'
+            ]
+            
+        ]);
+        $this->crud->addField([
+            'name' => 'telephone',
+            'type' => 'text',
+            'label' => "Contact",
+            'wrapperAttributes' => [
+                'class' => 'form-group col-md-6'
+            ]
+        ]);
+        $this->crud->addField([
+            'name' => 'enabled',
+            'type' => 'boolean',
+            'label' => "Activer ?",
+           
+        ]);
         /**
          * Fields can be defined using the fluent syntax or array syntax:
          * - CRUD::field('price')->type('number');

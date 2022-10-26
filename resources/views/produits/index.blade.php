@@ -124,7 +124,7 @@
                                 {{-- <img src="{{$url}}" alt=""> --}}
                                 <div class="hover-contents">
                                     <a href="{{route('produits.show',$produit->code)}}" class="hover-image">
-												<img src="{{$url}}" alt="" style="width: 60%">
+												{{-- <img src="{{$url}}" alt="" style="width: 100%"> --}}
                                     </a>
                                     <div class="hover-btns">
                                         <form  id="form" action="{{ route('cart.store') }}" method="POST" style="border-right:1px solid #eee">

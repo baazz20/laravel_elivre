@@ -222,7 +222,7 @@ ul{list-style: none;}
 
 .pagination-block .pagination-btns li::before {
     content: "";
-    border-top: 2px solid #EE008C;
+    border-top: 2px solid #6852ED;
     /* border-color: */
     position: absolute;
     width: 20px;
@@ -265,7 +265,7 @@ ul{list-style: none;}
     bottom: -2px;
     left: 0;
     right: 0;
-    /* border: 2px solid #EE008C;
+    /* border: 2px solid #6852ED;
     position: absolute;
     border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -288,7 +288,7 @@ ul{list-style: none;}
 
 .pagination-block .pagination-btns .single-btn:hover,
 .pagination-block .pagination-btns .single-btn.current {
-    color: #EE008C;
+    color: #6852ED;
 }
 
 .pagination-block .pagination-btns .single-btn i {

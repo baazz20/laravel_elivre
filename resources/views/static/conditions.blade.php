@@ -9,16 +9,16 @@
         <ol class="mt-5 mb-5">
             <h3><li>Introduction</li></h3>
             <p class="font-weight-light">
-            Les présentes conditions visent à définir les modalités de vente et location entre martheetmarie.com  et l’utilisateur, de la passation de commande à la livraison.
+            Les présentes conditions visent à définir les modalités de vente et location entre elivre.com  et l’utilisateur, de la passation de commande à la livraison.
             </p>
             <h3><li>La Commande</li></h3>
             <p class="font-weight-light">
-            L’utilisateur a la possibilité de passer sa commande en ligne exclusivement à partir du catalogue disponible en ligne. 
+            L’utilisateur a la possibilité de passer sa commande en ligne exclusivement à partir du catalogue disponible en ligne.
             Ladite commande ne peut être enregistrée sur le site que si l’utilisateur s’est clairement identifié selon le mode opératoire suivant :
-           
+
             <ol style="list-style-type: upper-roman">
                 <li>
-                    Création de compte (Renseignements des différents champs)  
+                    Création de compte (Renseignements des différents champs)
                 </li>
                 <li>
                 Réception d’email de confirmation
@@ -32,15 +32,15 @@
                     Enregistrement du compte (l’utilisateur à la fin de la procédure d’inscription obtient un numéro d’utilisateur qui lui est propre).
                 </li>
             </ol>
-           
+
             </p>
             <h3><li>La Livraison</li></h3>
             <p class="font-weight-light">
             La livraison s’effectue selon deux (2) formules : <br>
             <ul style="list-style-type: upper-roman">
-               
+
             <li> La formule vente: la livraison est faite dans un délai 24H à 48H maximum au tarif de 1000F dans la commune de COCODY et 1500F dans les autres communes.</li>
-            
+
 
             <li>La formule location: La livraison est faite dans un délai 24H à 48H maximum au tarif de 1000F dans la commune de COCODY et 1500F dans les autres communes. </li>
 
@@ -51,7 +51,7 @@
             <p class="font-weight-light">
             Les modes de paiement sont les suivants :
 -Paiement cash à la livraison
--Paiement via les solutions mobile money (ORANGE, MOOV, MTN & WAVE) 
+-Paiement via les solutions mobile money (ORANGE, MOOV, MTN & WAVE)
             </p>
             <h3><li>Informations diverses</li></h3>
             <p class="font-weight-light">
@@ -69,13 +69,13 @@
                     celui-ci restera pleinement effectif et applicable;
                 </li>
                 <li>
-                    Vous acceptez que toute réclamation ou affirmation à l'égard de martheetmarie.com ou de ses services devra
+                    Vous acceptez que toute réclamation ou affirmation à l'égard de elivre.com ou de ses services devra
                     être déposé sous un délai d'un (1) an à compter des faits, faute de quoi ladite réclamation ou
                     affirmation sera close indéfiniment, sans égard pour aucune législation contraire ;
                 </li>
                 <li>
-                    martheetmarie est à même de céder ses droits et obligations en vertu de ces Conditions Générales ;
-                    auquel cas martheetmarie sera déchargé de toute obligation supplémentaire.
+                    elivre est à même de céder ses droits et obligations en vertu de ces Conditions Générales ;
+                    auquel cas elivre sera déchargé de toute obligation supplémentaire.
                 </li>
             </ol>
             </p>

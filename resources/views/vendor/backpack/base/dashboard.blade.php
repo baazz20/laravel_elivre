@@ -19,11 +19,11 @@
             ->class('card border-0 text-white bg-primary')
             ->progressClass('progress-bar')
             ->value($userCount)
-            ->description('Clients inscrits.')
+            ->description('Clients inscrit')
             ->progress(100*(int)$userCount/1000),
         // alternatively, to use widgets as content, we can use the same add() method,
         // but we need to use onlyHere() or remove() at the end
-       
+
         // both Widget::make() and Widget::add() accept an array as a parameter
         // if you prefer defining your widgets as arrays
         Widget::make([
@@ -31,7 +31,7 @@
             'class'=> 'card border-0 text-white bg-dark',
             'progressClass' => 'progress-bar',
             'value' => $productCount,
-            'description' => 'Livres.',
+            'description' => 'Livres',
             'progress' => (int)$productCount/75*100,
         ]),
          Widget::make([
@@ -39,7 +39,7 @@
             'class'=> 'card border-0 text-white bg-info',
             'progressClass' => 'progress-bar',
             'value' => $commandesEnAttenteCount,
-            'description' => 'Commande en attente.',
+            'description' => 'Commande en attente',
             'progress' => (int)$commandesEnAttenteCount,
         ]),
         Widget::add()
@@ -47,7 +47,7 @@
             ->class('card border-0 text-white bg-success')
             ->progressClass('progress-bar')
             ->value($commandesEnCoursCount)
-            ->description('Achat(s) Validé(s).')
+            ->description('Achat(s) Validé(s)')
             ->progress($commandesEnCoursCount)
             ->onlyHere(),
     ]);

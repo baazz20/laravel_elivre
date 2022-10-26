@@ -19,7 +19,7 @@ class CheckoutController extends Controller
     {
         /* une variable session */
         $client = Auth::user();
-        
+
         return view('checkout.index', compact('client'));
     }
 
@@ -74,15 +74,15 @@ class CheckoutController extends Controller
             $id_c = \DB::table('commandes')->insertGetId(array('id_client' => $client->id, 'id_adr' => $adresse->id, 'montant' => $mtn_total, 'quantite' => \Cart::count(),'prix_livraison'=>$prix_livraison, "created_at" => now(), "updated_at" => now()));
             /* enregistrer les details */
             foreach (\Cart::content() as $produit) {
-              
+
                 \DB::table('detailcommandes')->insert(array('id_commande' => $id_c, 'code_prod' => $produit->model->code,  'quantite' => $produit->qty, 'prix_vente' => $produit->options['prix']??$produit->model->prix_vente, 'prix_achat' => $produit->model->prix_achat, 'type_paye'=>$produit->options['type_paye']??"acaht" ));
             }
-            
+
             /* envoie du mail */
             $data = [
-                'subject' => 'Nouvelle Commande sur martheetmarie.com',
-                'from' => 'martheetmarie.com@gmail.com',
-                'from_name' => 'martheetmarie.com',
+                'subject' => 'Nouvelle Commande sur elivre.com',
+                'from' => 'elivre.com@gmail.com',
+                'from_name' => 'elivre.com',
                 'template' => 'mail.ordernew',
                 'info' => [
                     'fullname' => $client->nom . ' ' . $client->prenom,
@@ -90,14 +90,14 @@ class CheckoutController extends Controller
                     'date' => now(),
                     'quantite' => \Cart::count(),
                     'montant' => $mtn_total,
-                    'lien' => 'http://www.martheetmarie.com/',
+                    'lien' => 'http://www.elivre.com/',
                     'nom_lien' => 'se connecter'
                 ]
             ];
             $data2 = [
                 'subject' => 'Confirmation de Commande',
-                'from' => 'martheetmarie.com@gmail.com',
-                'from_name' => 'martheetmarie.com',
+                'from' => 'elivre.com@gmail.com',
+                'from_name' => 'elivre.com',
                 'template' => 'mail.neworder',
                 'info' => [
                     'fullname' => $client->nom . ' ' . $client->prenom,
@@ -105,24 +105,29 @@ class CheckoutController extends Controller
                     'date' => now(),
                     'quantite' => \Cart::count(),
                     'montant' => $mtn_total,
-                    'lien' => 'http://www.martheetmarie.com/',
+                    'lien' => 'http://www.elivre.com/',
                     'nom_lien' => 'se connecter'
                 ]
             ];
-            
-            $email_martheetmarie = \DB::table("settings")->where("name","email")->first()->value;
+
+            $email_elivre = \DB::table("settings")->where("name","email")->first()->value;
             $details['type_email'] = 'neworder';
-            $details['email'] = $email_martheetmarie;
+            $details['email'] = $email_elivre;
             $details['data'] = $data;
 
             $details2['type_email'] = 'neworder';
             $details2['email'] = $client->email;
             $details2['data'] = $data2;
-  
-            dispatch(new \App\Jobs\SendEmailJob($details));
-            dispatch(new \App\Jobs\SendEmailJob($details2));
 
-            
+            try {
+                //code...
+                dispatch(new \App\Jobs\SendEmailJob($details));
+                dispatch(new \App\Jobs\SendEmailJob($details2));
+            } catch (\Throwable $th) {
+                //throw $th;
+            }
+
+
 
             /* modifier le stock */
             $this->updateStock();

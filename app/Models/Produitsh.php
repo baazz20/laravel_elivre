@@ -32,7 +32,7 @@ class Produits extends Model
     protected $primaryKey = 'code';
     // public $timestamps = false;
     protected $guarded = ['code'];
-    protected $fillable = ['code','description','code_souscategorie','code_categorie', 'nom','auteur', 'image', 'prix_louer1','prix_louer2', 'prix_achat', 'prix_vente', 'fichier', 'quantite', 'vues', 'enabled','owner_id'];
+    protected $fillable = ['code','description','code_souscategorie','code_categorie', 'nom','auteur', 'image', 'prix_louer1','prix_louer2', 'prix_achat', 'prix_vente', 'quantite', 'vues', 'enabled','owner_id'];
     // protected $hidden = [];
     // protected $dates = [];
     protected $keyType='string';
@@ -55,7 +55,6 @@ class Produits extends Model
         $this->uploadMultipleFilesToDisk($value,$attribute_name,$disk,$destination_path);
 
     }
-
 
     /*
     |--------------------------------------------------------------------------
@@ -111,16 +110,8 @@ class Produits extends Model
     {
         $attribute_name = "image";
         $disk = "public";
-        $destination_path = "articles";
+        $destination_path = "articles/";
+
         $this->uploadMultipleFilesToDisk($value, $attribute_name, $disk, $destination_path);
-
-    }
-    public function setFichierAttribute($value)
-    {
-        $attribute_name = "fichier";
-        $disk = "public"; // or use your own disk, defined in config/filesystems.php
-        $destination_path = "fichiers"; // path relative to the disk above
-        $this->uploadFileToDisk($value,$attribute_name,$disk,$destination_path);
-
     }
 }

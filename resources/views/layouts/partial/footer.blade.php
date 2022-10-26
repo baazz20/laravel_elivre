@@ -1,9 +1,9 @@
 <footer class="site-footer">
     @php
-    $numero = DB::table('settings')->where('key', 'contact_1')->first()->value; 
+    $numero = DB::table('settings')->where('key', 'contact_1')->first()->value;
     $email = DB::table('settings')->where('key', 'email')->first()->value;
     $facebook = DB::table('settings')->where('key', 'facebook_page')->first()->value;
-    $youtube = DB::table('settings')->where('key', 'youtube_page')->first()->value;
+    $youtube ="j"
 @endphp
     <div class="container">
         <div class="row justify-content-between  section-padding">
@@ -28,7 +28,7 @@
                         <li><a href="{{url('apropos')}}">A propos de nous</a></li>
                         <li><a href="{{url('conditions')}}">Condition générale d'utilisation</a></li>
                         <li><a href="{{url('confidentialite')}}">Politique de confidentialité</a></li>
-                   
+
                     </ul>
                 </div>
             </div>
@@ -41,7 +41,7 @@
                         <li><a href="{{url('mon-compte')}}">Mon compte</a></li>
                         <li><a href="{{url('produits')}}">Boutique</a></li>
                         <li><a href="{{url('contact')}}">Nous contacter</a></li>
-        
+
                     </ul>
                 </div>
             </div>
@@ -62,7 +62,7 @@
                     <ul class="social-list list-inline">
                         <li class="single-social facebook"><a href="{{ $facebook }}" target="_blank"><i class="ion ion-social-facebook"></i></a>
                         </li>
-                        <li class="single-social whatsapp bg-dark"><a href="https://wa.me/225{{$numero}}?text=Hello Martheetmarie.com" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                        <li class="single-social whatsapp bg-dark"><a href="https://wa.me/225{{$numero}}?text=Hello elivre.com" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
                         {{-- <li class="single-social google"><a href=""><i
                                     class="ion ion-social-googleplus-outline"></i></a></li> --}}
                         <li class="single-social youtube"><a href="{{ $youtube }}" target="_blank"><i class="ion ion-social-instagram"></i></a></li>
@@ -78,7 +78,7 @@
             <a href="#" class="payment-block">
                 {{-- <img src="images/icon/payment.png" alt=""> --}}
             </a>
-            <p class="copyright-text">Copyright © 2021 <a href="" class="author">Marthe & Marie</a>. Tout droit reservé.
+            <p class="copyright-text">Copyright © 2022 <a href="" class="author">elivre</a>. Tout droit reservé.
                 <br>
                 Design By <a href="http://sminth.atwebpages.com/" target="_blank" rel="noopener noreferrer" class="author">Sminth</a></p>
         </div>

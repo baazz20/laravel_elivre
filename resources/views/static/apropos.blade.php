@@ -10,11 +10,10 @@
             <div>
                 <img src="{{asset('images/logo.png')}}" class="float-none float-lg-right img-fluid"> <br>
                 <p class="font-weight-normal" style="font-size:20px">
-                   <b>MARTHE & MARIE</b>  est un mouvement chrétien spécifique à la femme et à son édification. <br> <br>
-L’objectif  principal de ce mouvement, est <b>de rassembler</b> des femmes d’horizons diverses avec chacune sa particularité, son vécu, ses expériences et sa connaissance de la parole de Dieu, afin <b>d’être édifier</b> sur des thématiques propres <b>à la femme selon le cœur de Dieu</b>. <br><br>
-
-Se rassembler, s'édifier,  tout cela dans le but de grandir dans notre connaissance de Christ, de ce qu’il attend de nous en tant que femmes, mais surtout de travailler à notre  épanouissement.
-                </p>
+                   <b>elivre</b>  est ...... <br> <br>
+        A propos de Elvire</p>
+        <br><br><br>
+        <br><br><br>
             </div>
         </div>
       

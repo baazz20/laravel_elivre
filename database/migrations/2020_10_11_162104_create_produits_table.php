@@ -15,25 +15,26 @@ class CreateProduitsTable extends Migration
     {
         Schema::create('produits', function (Blueprint $table) {
             $table->string('code')->primary();
-            $table->string('nom');
-            $table->string('auteur')->nullable();
-            $table->longText('image');
-            $table->integer('prix_achat');
-            $table->integer('prix_vente');
-            $table->integer('prix_louer1')->nullable();
-            $table->integer('prix_louer2')->nullable();
-            $table->integer('quantite');
-            $table->longText('description')->nullable();
             $table->string('code_categorie');
-            // $table->string('code_souscategorie');
-            // $table->string('code_marq');
+            $table->string('nom');
+            $table->string('lien')->nullable();
+            $table->integer('prix_achat')->nullable();
+            $table->integer('prix_vente')->nullable();
+            // $table->string('status')->default("payant");
+            $table->string('type')->nullable();
+            $table->string('auteur')->nullable();
+            $table->longText('description')->nullable();
+            $table->longText('image');
+            $table->longText('fichier')->nullable();
+
+            $table->integer('quantite')->nullable();
             $table->integer('vues')->default(0);
             $table->boolean('enabled');
             $table->integer('owner_id')->comment('celui qui à ajouter le produit dans la bd')->nullable();
             $table->softDeletes();
             $table->timestamps();
 
-  
+
         });
     }
 

@@ -14,7 +14,7 @@
 			<div class="col-xl-3 col-md-6 mt--30">
 				<div class="feature-box h-100">
 					<div class="icon">
-						<i class="fas fa-shipping-fast" style="color: #00A19B"></i>
+						<i class="fas fa-shipping-fast" style="color: #FFC107"></i>
 					</div>
 					<div class="text ">
 						<h5><strong>Livraison Rapide</strong></h5>
@@ -25,7 +25,7 @@
 			<div class="col-xl-3 col-md-6 mt--30">
 				<div class="feature-box h-100">
 					<div class="icon">
-						<i class="fas fa-redo-alt" style="color: #00A19B"></i>
+						<i class="fas fa-redo-alt" style="color: #FFC107"></i>
 					</div>
 					<div class="text">
 						<h5><strong>Retour Accepté</strong></h5>
@@ -36,7 +36,7 @@
 			<div class="col-xl-3 col-md-6 mt--30">
 				<div class="feature-box h-100">
 					<div class="icon">
-						<i class="fas fa-piggy-bank" style="color: #00A19B"></i>
+						<i class="fas fa-piggy-bank" style="color: #FFC107"></i>
 					</div>
 					<div class="text">
 						<h5><strong>Paiement Cash</strong></h5>
@@ -46,7 +46,7 @@
 			<div class="col-xl-3 col-md-6 mt--30">
 				<div class="feature-box h-100">
 					<div class="icon">
-						<i class="fas fa-life-ring" style="color: #00A19B"></i>
+						<i class="fas fa-life-ring" style="color: #FFC107"></i>
 					</div>
 					<div class="text">
 						<h5><strong>Support 24/7</strong></h5>
@@ -76,7 +76,7 @@
 								{{-- <a href="#" class="big-link" data-reveal-id="myModal">
 									Fade and Pop
 								</a> --}}
-								<b>MARTHE & MARIE</b> est un mouvement chrétien spécifique à la femme et à son
+								<b>elivre</b> est un mouvement chrétien spécifique à la femme et à son
 								édification. <br>
 								L’objectif principal de ce mouvement, est <b>de rassembler</b> des femmes d’horizons
 								diverses avec chacune sa particularité, son vécu, ses expériences et sa connaissance de

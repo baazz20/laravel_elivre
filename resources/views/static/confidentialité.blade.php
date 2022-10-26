@@ -8,10 +8,10 @@
         </div>
         <div class="mt-5">
             <p class="font-weight-normal">
-                La Politique de Confidentialité de martheetmarie régit la collecte, l'utilisation et la communication
-                des renseignements personnels en provenance de chacun des utilisateurs du site martheetmarie.com ; les
+                La Politique de Confidentialité de elivre régit la collecte, l'utilisation et la communication
+                des renseignements personnels en provenance de chacun des utilisateurs du site elivre.com ; les
                 termes « Utilisateur » et « Site » y feront référence dans la suite de ce document. Cette Politique
-                de Confidentialité s'applique au Site et à l'ensemble des produits et services offerts par martheetmarie.
+                de Confidentialité s'applique au Site et à l'ensemble des produits et services offerts par elivre.
             </p>
         </div>
         <div class="mt-5">
@@ -50,7 +50,7 @@
         <div class="mt-3">
             <h3>Utilisation des informations recueillies</h3>
             <p class="font-weight-normal">
-                martheetmarie collecte et utilise les renseignements personnels des Utilisateurs dans le but de :
+                elivre collecte et utilise les renseignements personnels des Utilisateurs dans le but de :
             <ul>
                 <li>
                     <span class="font-weight-bold">Personnaliser l’expérience de l’Utilisateur</span><br>
@@ -131,7 +131,7 @@
         <div class="mt-3">
             <h3>Modification de cette politique de confidentialité</h3>
             <p class="font-weight-normal">
-                martheetmarie se réserve à tout moment le droit de mettre à jour cette politiquede confidentialité. Le cas
+                elivre se réserve à tout moment le droit de mettre à jour cette politiquede confidentialité. Le cas
                 échéant, nous modifierons la date dedernière mise à jour située en bas de cette page. Nous encourageons
                 les Utilisateurs à consulter cette page fréquemment afin de se tenir informés de la façon dont nous
                 protégeons les informations personnelles que nous recueillons. Vous reconnaissez et acceptez qu’il
@@ -158,4 +158,4 @@
 
 
 
-@endsection 
+@endsection

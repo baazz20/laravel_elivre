@@ -12,23 +12,23 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
-        
+
 
         \DB::table('users')->delete();
-        
+
         \DB::table('users')->insert(array (
-            0 => 
+            0 =>
             array (
                 'id' => '1',
-                'name' => 'martheetmarie',
-                'email' => 'admin@martheetmarie.com',
+                'name' => 'elivre',
+                'email' => 'admin@elivre.com',
                 'email_verified_at' => NULL,
-                'password' => '$2y$10$78ySH1yasywmxJBNUCGZ9uXiA68EC3vDwt9hBaKwH6wG.Of/Ga6em',
+                'password' => '$2y$10$DeptA760k0qWCUEQF/5MmuTQhIm.q0zzmnNqUQB3kUZ4GJGRDxlhC',
                 'remember_token' => 'ZNZlY8tVqVh5Cv3RJNmrwYPUdp8cR1vHAVZpoZeXXEc5SVfrdWWGHab8okoC',
                 'created_at' => '2021-07-12 19:05:15',
                 'updated_at' => '2021-07-12 19:05:15',
             ),
-            1 => 
+            1 =>
             array (
                 'id' => '3',
                 'name' => 'sminth',
@@ -40,7 +40,7 @@ class UsersTableSeeder extends Seeder
                 'updated_at' => NULL,
             ),
         ));
-        
-        
+
+
     }
 }

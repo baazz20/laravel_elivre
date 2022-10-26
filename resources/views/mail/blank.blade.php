@@ -124,7 +124,7 @@
                                         <tbody>
                                         <tr>
                                             <td style="width:100px;"><img height="auto"
-                                                                          src="{{asset('https://martheetmarie.com/images/logo.jpeg')}}"
+                                                                          src="{{asset('https://elivre.com/images/logo.jpeg')}}"
                                                                           style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;"
                                                                           width="100"></td>
                                         </tr>
@@ -223,8 +223,8 @@
                                                 <div style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:11px;font-weight:400;line-height:16px;text-align:center;color:#445566;">
                                                     Côte d'ivoire , Abidjan
                                                     téléphone : <strong>+225 {{$liens[4]->value}}</strong>
-                                                    <br> Site Web : http://www.martheetmarie.com<br> &copy;
-                                                    martheetmarie.com , All Rights Reserved.
+                                                    <br> Site Web : http://www.elivre.com<br> &copy;
+                                                    elivre.com , All Rights Reserved.
                                                 </div>
                                             </td>
                                         </tr>

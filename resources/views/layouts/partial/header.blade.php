@@ -17,7 +17,7 @@
                         <div class="header-search-block">
                             <form class="input" action="{{route('produits.recherche')}}" method="get">
                             <input name="q" type="text" placeholder="Entrez votre recherche">
-                            <button style="background-color: #00A19B">Rechercher</button>
+                            <button style="background-color: #FFC107">Rechercher</button>
                             </form>
                         </div>
                     </div>
@@ -29,7 +29,7 @@
                                 </div>
                                 <div class="">
                                     <a href="{{route('cart.index')}}" class="font-weight-bold cart-link link-icon"><i class="ion-bag" style="font-size: 25px"></i><span class="" style="font-size: 12px;
-                                        background: #00A19B; color: #fff;  padding: 0 5px; border-radius: 50%;vertical-align: top;" >{{Cart::count()}}</span></a>
+                                        background: #FFC107; color: #fff;  padding: 0 5px; border-radius: 50%;vertical-align: top;" >{{Cart::count()}}</span></a>
 
                                     {{-- <div class="cart-total">
                                         <span class="text-number">
@@ -78,7 +78,7 @@
                                 <a href="javascript:void(0)" class="category-trigger"><i
                                         class="fa fa-bars"></i>
                                     CATEGORIES</a>
-                                <ul class="category-menu" style="border:2px solid #EE008C">
+                                <ul class="category-menu" style="border:2px solid #6852ED">
 
 
                                     @foreach (DB::table('categories')->get() as $item)
@@ -117,7 +117,7 @@
                                 </li>
 
                                 <li class="menu-item">
-                                    <a href="#"><strong>Abonnement</strong></a>
+                                    {{-- <a href="#"><strong>Abonnement</strong></a> --}}
                                 </li>
                             </ul>
                         </div>
@@ -156,7 +156,7 @@
                             <ul class="header-links">
                                 <li class="sin-link">
                                     <a href="{{route('cart.index')}}" class="cart-link link-icon"><i class="ion-bag"></i><span class="" style="font-size: 12px;
-                                        background: #00A19B; color: #fff;  padding: 0 5px; border-radius: 50%;vertical-align: top;">{{Cart::count()}}</span></a>
+                                        background: #FFC107; color: #fff;  padding: 0 5px; border-radius: 50%;vertical-align: top;">{{Cart::count()}}</span></a>
                                 </li>
                                 <li class="sin-link">
                                     <a href="javascript:" class="link-icon hamburgur-icon off-canvas-btn"><i
@@ -193,7 +193,7 @@
                             <li>
                                 <a href="{{url('/apropos')}}"><strong>Qui sommes nous ?</strong></a>
                             </li>
-                            <li><a href="#"><strong>Abonnement</strong></a></li>
+                            {{-- <li><a href="#"><strong>Abonnement</strong></a></li> --}}
                         </ul>
                     </nav>
                     <!-- mobile menu navigation end -->
@@ -216,7 +216,7 @@
                     </div>
                     <div class="off-canvas-social">
                         <a href="{{$facebook}}" target="_blank" class="single-icon"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://wa.me/225{{$whatsapp}}?text=Hello Martheetmarie.com" target="_blank" class="single-icon"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://wa.me/225{{$whatsapp}}?text=Hello elivre.com" target="_blank" class="single-icon"><i class="fab fa-whatsapp"></i></a>
 
                         {{-- <a href="{{$instagram}}" class="single-icon"><i class="fab fa-twitter"></i></a> --}}
 
@@ -248,9 +248,9 @@
                                 <a href="{{route('produits.index')}}">Boutique</a>
                             </li>
 
-                            <li class="menu-item">
+                            {{-- <li class="menu-item">
                                 <a href="#">Abonnement</a>
-                            </li>
+                            </li> --}}
                         </ul>
                     </div>
                 </div>

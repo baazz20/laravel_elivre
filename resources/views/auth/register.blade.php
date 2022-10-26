@@ -55,15 +55,15 @@
                             <div class="col-md-12">
                                 <button type="submit" class="btn btn-outlined col-12">s'inscrire</a>
                             </div>
-                            <div class=" col-12  text-center mt-2">
+                            {{-- <div class=" col-12  text-center mt-2">
                                 <span class="text-uppercase text-center hr">ou</span>
-                                <style> .hr { align-items: center; display: flex; text-align: center;}.hr::before,.hr::after { border-top: .0625em solid #00A19B; content: "";flex: 1;margin: 0 .5em;}</style>
+                                <style> .hr { align-items: center; display: flex; text-align: center;}.hr::before,.hr::after { border-top: .0625em solid #FFC107; content: "";flex: 1;margin: 0 .5em;}</style>
                            </div>
                             <div class="col-md-12 mt-3">
                                 <a href="{{ url('auth/google') }}" class="col-12 btn btn-danger"><i class="fab fa-google text-white float-left"></i> &nbsp;&nbsp;&nbsp; S'INSCRIRE AVEC GOOGLE</a>
-                            </div>
+                            </div> --}}
                             <div class="col-12 mt-3">
-                                <p>vous avez deja un compte ? <a href="{{route('login.index')}}" style="color:#EE008C">connectez vous</a></p>
+                                <p>vous avez deja un compte ? <a href="{{route('login.index')}}" style="color:#6852ED">connectez vous</a></p>
                             </div>
                         </div>
                     </div>

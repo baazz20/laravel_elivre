@@ -143,7 +143,7 @@
                                 <dl class="row row-cols-2 dlist-align">
                                     <dt class="text-left">TOTAL :</dt>
                                     <dd class="text-right"
-                                        style="width:55%;margin-left:-20px;font-weight:bold;color: #EE008C">{{Cart::total()}}
+                                        style="width:55%;margin-left:-20px;font-weight:bold;color: #6852ED">{{Cart::total()}}
                                         Fcfa
                                     </dd>
                                 </dl>
@@ -248,17 +248,17 @@
 
                 <center style="font-size: 18px">
                     <span class="text-left" style="font-weight: bold">Total :</span>
-                    <span class="text-right" style="font-weight: bold;color:#EE008C">{{($total)}}</span> Fcfa
+                    <span class="text-right" style="font-weight: bold;color:#6852ED">{{($total)}}</span> Fcfa
                 </center>
 
 
                 <center class="mt-2">
                     <a href="{{route('checkout.index')}}" class="btn btn-outline-dark "
                        style="font-weight:bold;font-size:18px;">
-                        Finaliser la commande &nbsp;<i class="fa fa-chevron-right" style="color: #EE008C"></i> </a>
+                        Finaliser la commande &nbsp;<i class="fa fa-chevron-right" style="color: #6852ED"></i> </a>
                     <a href="{{route('produits.index')}}" class="btn btn-outline-dark mt-2"
                        style="font-weight:bold;font-size:18px;">
-                        <i class="fa fa-chevron-left" style="color: #EE008C"></i> &nbsp;Continuer ses achats </a>
+                        <i class="fa fa-chevron-left" style="color: #6852ED"></i> &nbsp;Continuer ses achats </a>
                 </center>
             </div>
         </section>

@@ -33,11 +33,11 @@ return [
     'google' => [
         'client_id' => '526535296851-37arsuhc8h3vfiakkve5i0j3idejs9fl.apps.googleusercontent.com',
         'client_secret' => 'LecXkfPe2IR83PsHUFvgI8b2',
-        'redirect' => 'https://martheetmarie.com/auth/google/callback',
+        'redirect' => 'https://elivre.com/auth/google/callback',
     ],
     'facebook' => [
         'client_id' => '1010517612792405',
         'client_secret' => 'd1b5deecd73a32623b14d10f138c519b',
-        'redirect' => 'http://martheetmarie.com/facebook/callback',
-      ], 
+        'redirect' => 'http://elivre.com/facebook/callback',
+      ],
 ];

@@ -144,8 +144,8 @@
                                                 <tbody>
                                                     <tr>
                                                         <td style='width:230px;'>
-                                                        <a href='https://martheetmarie.com' target='_blank'>
-                                                                <img alt='LoGo Marthe Marie' height='80' src="{{asset('images/logo.png')}}" style='border:0;display:block;font-size:13px;height:80px;outline:none;text-decoration:none;width:100%;' width='230' />
+                                                        <a href='https://elivre.com' target='_blank'>
+                                                                <img alt='LoGo elivre' height='80' src="{{asset('images/logo.png')}}" style='border:0;display:block;font-size:13px;height:80px;outline:none;text-decoration:none;width:100%;' width='230' />
                                                             </a>
                                                         </td>
                                                     </tr>
@@ -173,7 +173,7 @@
             <table align='center' border='0' cellpadding='0' cellspacing='0' role='presentation' style='width:100%;'>
                 <tbody>
                     <tr>
-                        <td style='border-bottom:2px solid #EE008C;border-top:2px solid #EE008C;direction:ltr;font-size:0px;padding:10px;text-align:center;vertical-align:top;'>
+                        <td style='border-bottom:2px solid #6852ED;border-top:2px solid #6852ED;direction:ltr;font-size:0px;padding:10px;text-align:center;vertical-align:top;'>
                             <!--[if mso | IE]>
 <table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td style="vertical-align:top;width:150px;">
 <![endif]-->
@@ -186,7 +186,7 @@
                                                     <tr>
                                                         <td align='center' style='font-size:0px;padding:10px 0px;word-break:break-word;'>
                                                             <div style='color:#30373b;font-family:Open Sans, Arial, sans-serif;font-size:15px;font-weight:bold;line-height:18px;text-align:center;text-transform:uppercase;'>
-                                                                <a href='https://martheetmarie.com/' style='text-decoration:none; color:#30373b;' target='_blank'>
+                                                                <a href='https://elivre.com/' style='text-decoration:none; color:#30373b;' target='_blank'>
                                     Accueil
                                   </a>
                                                             </div>
@@ -210,7 +210,7 @@
                                                     <tr>
                                                         <td align='center' style='font-size:0px;padding:10px 0px;word-break:break-word;'>
                                                             <div style='color:#30373b;font-family:Open Sans, Arial, sans-serif;font-size:15px;font-weight:bold;line-height:18px;text-align:center;text-transform:uppercase;'>
-                                                                <a href='https://martheetmarie.com/produits' style='text-decoration:none; color:#30373b;' target='_blank'>
+                                                                <a href='https://elivre.com/produits' style='text-decoration:none; color:#30373b;' target='_blank'>
                                     Boutique
                                   </a>
                                                             </div>
@@ -238,7 +238,7 @@
                                                     <tr>
                                                         <td align='center' style='font-size:0px;padding:10px 0px;word-break:break-word;'>
                                                             <div style='color:#30373b;font-family:Open Sans, Arial, sans-serif;font-size:15px;font-weight:bold;line-height:18px;text-align:center;text-transform:uppercase;'>
-                                                                <a href='https://martheetmarie.com/contact' style='text-decoration:none; color:#30373b;' target='_blank'>
+                                                                <a href='https://elivre.com/contact' style='text-decoration:none; color:#30373b;' target='_blank'>
                                     nous contactez
                                   </a>
                                                             </div>
@@ -325,8 +325,8 @@
                                                         <td align='center' style='font-size:0px;padding:10px 25px;word-break:break-word;' vertical-align='middle'>
                                                             <table border='0' cellpadding='0' cellspacing='0' role='presentation' style='border-collapse:separate;line-height:100%;'>
                                                                 <tr>
-                                                                    <td align='center' bgcolor='#EE008C' role='presentation' style='background-color:#EE008C;border:none;border-radius:5px;cursor:auto;padding:10px 25px;' valign='middle'>
-                                                                        <a href='https://martheetmarie.com/admin' style='background:#EE008C;color:#ffffff;font-family:Oxygen, Helvetica neue, sans-serif;font-size:14px;font-weight:400;line-height:21px;margin:0;text-decoration:none;text-transform:none;' target='_blank'>
+                                                                    <td align='center' bgcolor='#6852ED' role='presentation' style='background-color:#6852ED;border:none;border-radius:5px;cursor:auto;padding:10px 25px;' valign='middle'>
+                                                                        <a href='https://elivre.com/admin' style='background:#6852ED;color:#ffffff;font-family:Oxygen, Helvetica neue, sans-serif;font-size:14px;font-weight:400;line-height:21px;margin:0;text-decoration:none;text-transform:none;' target='_blank'>
                                        SE CONNECTER AU DASHBORD
                                       </a>
                                                                     </td>
@@ -380,7 +380,7 @@
                                                                                             <tr>
                                                                                                 <td valign='top'>
                                                                                                     <a href='# Facebook' style='text-decoration:none;' target='_blank'>
-                                                                                                        <img alt='Facebook' border='0' height='26' src='https://www.sendwithus.com/assets/img/emailmonks/images/fb.png' style='display:block;font-family: Arial, sans-serif; font-size:10px; line-height:18px; color:#EE008C; ' width='26' />
+                                                                                                        <img alt='Facebook' border='0' height='26' src='https://www.sendwithus.com/assets/img/emailmonks/images/fb.png' style='display:block;font-family: Arial, sans-serif; font-size:10px; line-height:18px; color:#6852ED; ' width='26' />
                                                                                                     </a>
                                                                                                 </td>
                                                                                                 <td width='7'>
@@ -388,7 +388,7 @@
                                                                                                 </td>
                                                                                                 <td valign='top'>
                                                                                                     <a href='# Twitter' style='text-decoration:none;' target='_blank'>
-                                                                                                        <img alt='Twitter' border='0' height='26' src='https://www.sendwithus.com/assets/img/emailmonks/images/tw.png' style='display:block;font-family: Arial, sans-serif; font-size:10px; line-height:18px; color:#EE008C; ' width='26' />
+                                                                                                        <img alt='Twitter' border='0' height='26' src='https://www.sendwithus.com/assets/img/emailmonks/images/tw.png' style='display:block;font-family: Arial, sans-serif; font-size:10px; line-height:18px; color:#6852ED; ' width='26' />
                                                                                                     </a>
                                                                                                 </td>
                                                                                                 <td width='7'>
@@ -400,7 +400,7 @@
                                                                                                 </td>
                                                                                                 <td valign='top'>
                                                                                                     <a href='# Instagram' style='text-decoration:none;' target='_blank'>
-                                                                                                        <img alt='Instagram' border='0' height='26' src='https://www.sendwithus.com/assets/img/emailmonks/images/insta.png' style='display:block;font-family: Arial, sans-serif; font-size:10px; line-height:18px; color:#EE008C; ' width='26' />
+                                                                                                        <img alt='Instagram' border='0' height='26' src='https://www.sendwithus.com/assets/img/emailmonks/images/insta.png' style='display:block;font-family: Arial, sans-serif; font-size:10px; line-height:18px; color:#6852ED; ' width='26' />
                                                                                                     </a>
                                                                                                 </td>
                                                                                                 <td width='7'>
@@ -419,13 +419,13 @@
                                                                     <tr>
                                                                         <td align='center' style='font-size:0px;padding:5px;word-break:break-word;'>
                                                                             <div style='color:#848789;font-family:Open Sans, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;text-transform:uppercase;'>
-                                                                                <a href='https://martheetmarie.com/apropos' style='text-decoration:underline; color:#848789;' target='_blank'>
+                                                                                <a href='https://elivre.com/apropos' style='text-decoration:underline; color:#848789;' target='_blank'>
                                                                         Apropos de nous
 
                                 </a>&nbsp;&nbsp;|&nbsp;&nbsp; {{-- <a href='# Privacy' style='text-decoration:underline; color:#848789;' target='_blank'>
                                     Politique de confidentialité
                                   </a> &nbsp;&nbsp;|&nbsp;&nbsp; --}}
-                                                                                <a href='https://martheetmarie.com/conditions' style='text-decoration:underline; color:#848789;' target='_blank'>
+                                                                                <a href='https://elivre.com/conditions' style='text-decoration:underline; color:#848789;' target='_blank'>
                                                                           Condition générale d'utilisation
                                   </a> &nbsp;&nbsp;|&nbsp;&nbsp;
 
@@ -435,7 +435,7 @@
                                                                     <tr>
                                                                         <td align='center' style='font-size:0px;padding:5px;word-break:break-word;'>
                                                                             <div style='color:#848789;font-family:Open Sans, Arial, sans-serif;font-size:12px;line-height:18px;text-align:center;text-transform:uppercase;'>
-                                                                                Copyright © 2021 Marthe & Marie. Tout Droit Reservé.
+                                                                                Copyright © 2021 elivre. Tout Droit Reservé.
                                                                             </div>
                                                                         </td>
                                                                     </tr>
