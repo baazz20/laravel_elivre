@@ -35,7 +35,7 @@ class ProduitsRequest extends FormRequest
             'auteur' => 'required',
             'code_categorie' => 'required',
             'type' => 'required',
-            'fichier' => 'required',
+            // 'fichier' => 'required',
 
         ];
     }
