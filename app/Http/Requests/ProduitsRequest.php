@@ -29,10 +29,14 @@ class ProduitsRequest extends FormRequest
             'nom' => 'required|min:3|max:255',
             'image' => 'required',
             'prix_vente' => 'required|numeric',
-            'prix_achat' => 'required|numeric',
+            // 'prix_achat' => 'required|numeric',
             'quantite' => 'required|numeric',
             'description' => 'required',
-           
+            'auteur' => 'required',
+            'code_categorie' => 'required',
+            'type' => 'required',
+            'fichier' => 'required',
+
         ];
     }
 

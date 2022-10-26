@@ -32,7 +32,7 @@ class ProduitsRequest extends FormRequest
             'prix_achat' => 'required|numeric',
             // 'quantite' => 'numeric',
             'description' => 'required',
-            // 'type' => 'required',
+            'type' => 'required',
             // 'fichier' => 'required',
             'auteur' => 'required',
             'code_categorie' => 'required',
