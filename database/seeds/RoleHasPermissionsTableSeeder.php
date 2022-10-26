@@ -20,7 +20,7 @@ class RoleHasPermissionsTableSeeder extends Seeder
             0 => 
             array (
                 'permission_id' => 2,
-                'role_id' => 2,
+                'role_id' => 1,
             ),
         ));
         
