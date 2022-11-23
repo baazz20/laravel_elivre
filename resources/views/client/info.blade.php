@@ -15,6 +15,8 @@
                 <form method="POST" action="{{route('client.updateinfo')}}" style="border: none">
 
                     @csrf
+
+                    
                     <h5 class="text-uppercase">vos informations personnelles</h5>
                     <div class="col-12 col-lg-6 mt-3">
                         <label for="nom">nom</label>

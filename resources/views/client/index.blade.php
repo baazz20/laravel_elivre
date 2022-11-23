@@ -27,7 +27,7 @@
                             <a href="#dashboad" class="active" data-toggle="tab"><i class="fas fa-tachometer-alt"></i>
                                 Dashboard</a>
                             <a href="#orders" data-toggle="tab"><i class="fa fa-cart-arrow-down"></i> Commandes</a>
-                            
+
                             {{-- <a href="#payment-method" data-toggle="tab"><i class="fa fa-credit-card"></i>
                                 Favoris  <span class="price">{{\Auth::user() ?count(\Auth::user()->wishlist):0}}</span></a>
                             --}}
@@ -98,12 +98,12 @@
                                             </tbody>
                                             {{ $commandes->links() }}
                                         </table>
-                                   
+
 
                                         <script src="{{asset('js/jquery.min.js')}}" type="text/javascript"></script>
 
                                         <script>
-                                            
+
                                             $('.open').click(function(event) {
         event.preventDefault();
 
@@ -129,19 +129,19 @@
      $(".modal #num").html( id_cmd );
      $(".modal #date").html( date );
      $(".modal #total").html( total );
-                                                }); 
+                                                });
 </script>
-                                          
+
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <!-- Single Tab Content End -->
                             <!-- Single Tab Content Start -->
                             <div class="tab-pane fade" id="payment-method" role="tabpanel">
                                 <div class="myaccount-content">
                                     <h3>Favoris</h3>
-                                   
+
                                     <div class="row">
                                         @foreach ($wishlist as $wish)
                                         @php $produit =
@@ -177,6 +177,8 @@
                             <div class="tab-pane fade" id="account-info" role="tabpanel">
                                 <div class="myaccount-content">
                                     <h3>Details Compte</h3>
+
+                                    {{-- @dd(Auth::user()) --}}
                                     <div class="account-details-form">
                                         <form method="POST" action="{{route('client.updateinfo')}}"
                                             style="border: none">
@@ -191,6 +193,11 @@
                                                         value="{{Auth::user()->prenom}}" required>
                                                 </div>
                                                 <div class="col-lg-6 col-12  mb--30">
+                                                    <input id="email" placeholder="Email Address" type="email"
+                                                        name="email" type="text" value="{{Auth::user()->email}}"
+                                                        required>
+                                                </div>
+                                                <div class="col-lg-6 col-12  mb--30">
                                                     <input class="w-100" placeholder="numero" name="telephone"
                                                         type="text" value="{{Auth::user()->telephone}}" required>
                                                 </div>
@@ -199,6 +206,12 @@
                                                         name="email" type="text" value="{{Auth::user()->email}}"
                                                         required>
                                                 </div>
+                                                <div class="col-lg-6 col-12  mb--30">
+                                                    <input id="email" placeholder="Email Address" type="email"
+                                                        name="email" type="text" value="{{Auth::user()->email}}"
+                                                        required>
+                                                </div>
+
                                                 <div class="col-12  mb--30">
                                                     <h4>modifier mot de passe</h4>
                                                 </div>
@@ -254,13 +267,13 @@
                                     <li>Total: <strong id="total"></strong></li>
                                     <li>Methode de Paiement: <strong>Paiement à la livraison</strong></li>
                                 </ul>
-                           
-                                
+
+
                                 {{-- <p>Pay with cash upon delivery.</p> --}}
                                 <h3 class="order-table-title">Articles </h3>
                                 <div class="table-responsive">
-                                    
-                                </div> 
+
+                                </div>
                             </div>
                         </div>
                     </div>
