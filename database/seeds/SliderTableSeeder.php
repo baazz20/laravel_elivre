@@ -19,7 +19,7 @@ class SliderTableSeeder extends Seeder
         \DB::table('slider')->insert(array (
             0 => 
             array (
-                'id' => '1',
+                'id' => 1,
                 'nom' => 'images/sliders/f0d6d7d48d3dece2f57578bb383d074e.jpg',
                 'titre' => 'Le livre au feminin',
                 'texte' => 'Le livre est un passport qui franchit toutes les frontières',
@@ -30,7 +30,7 @@ class SliderTableSeeder extends Seeder
             ),
             1 => 
             array (
-                'id' => '2',
+                'id' => 2,
                 'nom' => 'images/sliders/2754c055beab6cef0f9e6a9c12484254.jpg',
                 'titre' => 'Bibles d\'études.',
                 'texte' => 'Laissez vous transformez par la parole de Dieu',
@@ -41,7 +41,7 @@ class SliderTableSeeder extends Seeder
             ),
             2 => 
             array (
-                'id' => '3',
+                'id' => 3,
                 'nom' => 'images/sliders/59e95d2b96a09927e42e862fed841c35.jpg',
                 'titre' => NULL,
                 'texte' => NULL,

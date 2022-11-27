@@ -8,12 +8,12 @@
         <div class="header-middle pt--10 pb--10">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-3">
+                    <div class="col-lg-2">
                         <a href="{{route('accueil')}}" class="site-brand">
                             <img src="{{asset('images/logo.png')}}" alt="" height="60">
                         </a>
                     </div>
-                    <div class="col-lg-5">
+                    <div class="col-lg-8">
                         <div class="header-search-block">
                             <form class="input" action="{{route('produits.recherche')}}" method="get">
                             <input name="q" type="text" placeholder="Entrez votre recherche">
@@ -21,7 +21,7 @@
                             </form>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-2">
                         <div class="main-navigation flex-lg-right">
                             <div class="cart-widget">
                                 <div class="login-block">
@@ -71,7 +71,7 @@
         <div class="header-bottom  @if (!Request()->is('/')){{"bg-primary"}} @endif">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-3">
+                    <div class="col-lg-4">
 
                         <nav class="category-nav  @if (!Request()->is('/')){{"white-nav"}} @endif @if (Request()->is('/')){{"show"}} {{'primary-nav'}} @endif" >
                             <div>
@@ -94,7 +94,7 @@
                             </div>
                         </nav>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-2">
                         <div class="header-phone @if (!Request()->is('/')){{"color-white"}} @endif">
                             <div class="icon">
                                 <i class="fas fa-headphones-alt"></i>

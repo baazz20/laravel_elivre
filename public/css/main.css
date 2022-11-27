@@ -31454,3 +31454,7 @@ only screen and (max-width: 767px) {
 .accordion .card .card-body {
     padding: 0 30px 30px;
 }
+.site-footer{
+    background-size: auto;
+    background-color: rgba(255, 193, 7);
+}

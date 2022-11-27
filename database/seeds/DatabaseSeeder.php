@@ -44,5 +44,8 @@ class DatabaseSeeder extends Seeder
         $this->call(SectionsTableSeeder::class);
 
         $this->call(SouscriptionsTableSeeder::class);
+        $this->call(CategoriesHasSouscategoriesTableSeeder::class);
+        $this->call(JobsTableSeeder::class);
+        $this->call(OffresTableSeeder::class);
     }
 }

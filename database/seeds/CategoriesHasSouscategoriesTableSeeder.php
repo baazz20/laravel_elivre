@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class DetailcommandesTableSeeder extends Seeder
+class CategoriesHasSouscategoriesTableSeeder extends Seeder
 {
 
     /**
@@ -14,7 +14,7 @@ class DetailcommandesTableSeeder extends Seeder
     {
         
 
-        \DB::table('detailcommandes')->delete();
+        \DB::table('categories_has_souscategories')->delete();
         
         
         

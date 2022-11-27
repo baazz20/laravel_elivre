@@ -29,7 +29,7 @@ class AdressesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
             ),
-            ));
+        ));
         
         
     }

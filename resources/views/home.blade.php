@@ -510,6 +510,7 @@
   color: #FFF;
 }
 
+
 .subscribe-wrapper {
   position: absolute;
   left: -30px;
