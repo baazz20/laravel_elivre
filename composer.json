@@ -15,14 +15,13 @@
         "consoletvs/charts": "6.*",
         "doctrine/dbal": "2.12.1",
         "fideloper/proxy": "^4.4",
-        "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.2",
         "hardevine/shoppingcart": "^2.9",
         "intervention/image": "^2.5",
         "laravel/framework": "^7.29",
         "laravel/socialite": "^5.1",
         "laravel/tinker": "^2.5",
-        "orangehill/iseed": "^2.6",
+      
         "spatie/laravel-sluggable": "^2.2",
         "twbs/bootstrap": "5.0.0-alpha2"
     },
